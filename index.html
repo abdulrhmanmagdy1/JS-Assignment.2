@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the Day</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-primary bg-gradient vh-100 d-flex align-items-center justify-content-center py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card shadow rounded-4 border-0">
+                    <div class="card-body p-4 p-md-5 text-center">
+                        <h1 class="card-title mb-4 fw-bold text-primary">Quote of the Day</h1>
+
+                        <div class="my-5">
+
+                            <div id="quoteContainer" class="mb-4">
+                                <p id="quoteText" class="fs-4 fw-light mb-3">Press the button below to receive a random
+                                    quote!</p>
+                                <p id="quoteAuthor" class="fst-italic text-secondary"></p>
+                            </div>
+                        </div>
+
+                        <button id="newQuoteBtn" class="btn btn-primary btn-lg px-4 py-2 rounded-pill">New Quote</button>
+
+                        <div class="mt-4">
+                            <small class="text-muted">Quotes generated: <span id="quoteCounter"
+                                    class="fw-bold">0</span></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
